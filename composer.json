@@ -1,0 +1,30 @@
+{
+	"name": "manuel/googlon",
+	"description": "Credijusto code challenge",
+	"type": "library",
+	"require-dev": {
+		"phpunit/phpunit": "^7.5"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Manuel González R",
+			"email": "mgrivera@gmail.com"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"MGR\\Googlon\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Test\\MGR\\Googlon\\": "tests/",
+			"MGR\\Googlon\\": "tests/_Support/"
+		}
+	},
+	"scripts": {
+		"test": "./vendor/bin/phpunit"
+	}
+}
